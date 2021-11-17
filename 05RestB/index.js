@@ -26,7 +26,7 @@ app.get('/:cedula', (req,res)=>{
         res.status(200).send(resultado[0]);
     }
     res.status(404).send({
-        "mensaje":"No se puede encontrar el elemento con ese nUmero de cEdula"
+        "mensaje":"No se puede encontrar el elemento con ese numero de cedula"
     });
 
 
